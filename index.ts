@@ -1,5 +1,5 @@
-import * as clone from 'clone';
-import * as merge from 'lodash.merge';
+import clone from 'clone';
+import merge from 'lodash.merge';
 
 interface PickKeysOptions {
     redactString: string
