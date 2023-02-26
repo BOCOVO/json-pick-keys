@@ -1,4 +1,3 @@
-import * as util from 'util';
 import * as clone from 'clone';
 import * as merge from 'lodash.merge';
 
@@ -45,7 +44,7 @@ function normalizeFields(fields) {
 function emptyObject(obj) {
     if (obj && obj.constructor.name === 'Object') {
         return {};
-    } else if (util.isArray(obj)) {
+    } else if (Array.isArray(obj)) {
         return [];
     }
 }
